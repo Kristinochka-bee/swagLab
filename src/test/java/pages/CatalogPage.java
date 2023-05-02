@@ -18,7 +18,7 @@ import static com.codeborne.selenide.Selenide.$x;
 import static enums.Sorting.ASC;
 
 @Getter
-public class CatalogPage {
+public class CatalogPage  extends BasePage{
     private SelenideElement cartIcon = $x("//a[@class=\"shopping_cart_link\"]");
 
     private SelenideElement catalogTitle = $x("//span[@class=\"title\"]");
