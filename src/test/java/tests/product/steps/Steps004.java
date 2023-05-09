@@ -4,7 +4,6 @@ import com.codeborne.selenide.Condition;
 import io.qameta.allure.Step;
 import pages.Card;
 import pages.CatalogPage;
-import pages.LoginPage;
 import pages.ProductPage;
 import tests.CommonSteps;
 
@@ -14,8 +13,6 @@ public class Steps004 extends CommonSteps {
     ProductPage productPage;
     CatalogPage catalogPage;
     String cardTitle;
-    String cardDesc;
-    String cardPrice;
 
     @Step("Login in to the app")
     public void precondition(){

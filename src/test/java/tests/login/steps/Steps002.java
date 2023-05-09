@@ -3,7 +3,6 @@ package tests.login.steps;
 import pages.LoginPage;
 import tests.CommonSteps;
 import io.qameta.allure.Step;
-import tests.CommonSteps;
 
 public class Steps002 extends CommonSteps {
     String login = "standard_user";

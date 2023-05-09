@@ -24,4 +24,6 @@ public class CommonSteps {
                 .shouldBe(Condition.exactText(text));
     }
 
+
+
 }
